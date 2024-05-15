@@ -18,8 +18,4 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = "R2Distribution.xcframework"
 
-  s.prepare_command = <<-CMD
-                      unzip R2Distribution.xcframework.zip
-                      CMD
-
 end

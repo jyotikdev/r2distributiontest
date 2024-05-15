@@ -14,10 +14,10 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '13.0'
 
-  s.source = { :git => "https://github.com/jyotikdev/r2distributiontest/releases/download/v2.0.0-beta.1/R2Distribution.xcframework.zip"}
+  s.source = { :http => "https://github.com/jyotikdev/r2distributiontest/releases/download/v2.0.0-beta.1/R2Distribution.xcframework.zip"}
 
   s.vendored_frameworks = "R2Distribution.xcframework"
-  
+
   s.prepare_command = <<-CMD
                       unzip R2Distribution.xcframework.zip
                       CMD

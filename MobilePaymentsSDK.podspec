@@ -14,8 +14,9 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '13.0'
 
-  s.source = { :http => "https://github.com/jyotikdev/r2distributiontest/releases/download/2.0.0-beta2/MobilePaymentsSDK.xcframework.zip"}
+  #s.source = { :http => "https://github.com/jyotikdev/r2distributiontest/releases/download/2.0.0-beta2/MobilePaymentsSDK.xcframework.zip"}
 
-  #s.vendored_frameworks = "XCFramworks/#{framework_filename}""
-  s.vendored_frameworks = 'MobilePaymentsSDK.xcframework'
+  s.source = { :git => "https://github.com/jyotikdev/r2distributiontest.git", :branch => 'jyoti/release' }
+  s.vendored_frameworks = "XCFramworks/#{framework_filename}""
+  #s.vendored_frameworks = 'MobilePaymentsSDK.xcframework'
 end

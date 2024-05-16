@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>SDKKey</key>
+    <string>9K9IJ8GiDnU6Ms1fsY7SQocvj4IvRH065+2Ke1/MlBobzgVbxsV0uTdK/lYeUQEFmLX6BotHCbQibkEMcBLPoLofQRO9w3b4Im5BDHASz6C6H0ETvcN2+B4h3bWKdJsbjnn3f29mXrjkazPWBEPmp9U8EKp5FUAo2oko71MDd2yBYS9ze/z5ttqJKO9TA3dsgWEvc3v8+bYGYDqwrqfUYRrlOzfXHvOFFsYigS8f7VDZhJK/2gIbFEP0jP8BUmEMO1hIpyx88gCD1mbPwVCl/XtyBAtsijU8/8dTH3sgnwyP3bf8foLvysVOlNk1NIY+lNYOGSibdIy7+jx2IqoVmQAhK7TqtNbce1hSgeLomaBAxzsMqu7/MToyzV+xjtJChy+Pgi9EfTokgBtaVCNkr1cCe+JenmjJaUDnaxI6RZI0icG+UldQ+CJuQQxwEs+guh9BE73DdvgibkEMcBLPoLofQRO9w3b41TjGyD88H9L0ii1yy6f6Rk2q1VzFEEcL+3pXhx9dY7baiSjvUwN3bIFhL3N7/Pm22oko71MDd2yBYS9ze/z5tsUNq5GlSCTUVilFjk9F7/VIzDu8I3Spx3W4qQcDEkJYQ/SM/wFSYQw7WEinLHzyAIPWZs/BUKX9e3IEC2yKNTw03khizmgbxfUubfHaQ0s0bI9yU/RnJ5K6kEk0TtNXErv6PHYiqhWZACErtOq01tx7WFKB4uiZoEDHOwyq7v8xxnu0Y33kCwvKi0YyLIMD+DC7C4d1SSr6O5C2gspIHVQ=</string>
+    <key>SDKID</key>
+    <string>bucket-0</string>
+  </dict>
+</plist>

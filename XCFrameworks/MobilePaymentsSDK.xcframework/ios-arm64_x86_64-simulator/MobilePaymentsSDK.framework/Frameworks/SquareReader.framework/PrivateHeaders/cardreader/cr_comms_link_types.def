@@ -1,0 +1,6 @@
+X(NOISE, "Noise")
+X(O1, "O1")
+X(GEN2, "Gen2")
+X(SQLINK_FAST, "SqLink_Fast")
+X(SQLINK_SLOW, "SqLink_Slow")
+X(UNKNOWN, "Unknown") /* Unknown signifies that classification has not occurred or failed. */

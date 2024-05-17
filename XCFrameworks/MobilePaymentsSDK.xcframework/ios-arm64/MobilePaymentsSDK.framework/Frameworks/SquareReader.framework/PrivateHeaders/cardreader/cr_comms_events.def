@@ -1,7 +1,0 @@
-X(SUCCESS, "Carrier detection has completed successfully.  The event data contains a pointer to valid packet data that should be demodulated.")
-X(RESTART, "Carrier detection started then restarted part way through. The data contained in the event is purely informational and should not be acted on.")
-X(DISCARD, "Carrier detection started but the packet was discarded. The data contained in the event is purely informational and should not be acted on.")
-X(TOO_SHORT, "Carrier detection started but the packet was too short. The data contained in the event is purely informational and should not be acted on.")
-X(TOO_LONG, "Carrier detection started but the packet was too long. The data contained in the event is purely informational and should not be acted on.")
-X(READY, "Carrier detection is now capable of detecting a packet. The user can be given a cue that swiping can now occur.")
-X(NOT_READY, "Carrier detection is no longer capable of detecting a packet. The user can be given a cue that swiping should not take place.")

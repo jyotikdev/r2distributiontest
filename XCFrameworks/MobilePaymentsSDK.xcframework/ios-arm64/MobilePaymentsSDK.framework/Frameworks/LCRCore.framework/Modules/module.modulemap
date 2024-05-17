@@ -1,6 +1,0 @@
-framework module LCRCore {
-  umbrella header "LCRCore-umbrella.h"
-
-  export *
-  module * { export * }
-}

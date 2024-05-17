@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
 
   s.source = { :git => "https://github.com/jyotikdev/r2distributiontest.git" }
 
-  s.vendored_frameworks = 'XCFrameworks/MobilePaymentsSDK.xcframework'
+  s.vendored_frameworks = 'XCFrameworks/MobilePaymentsSDK.xcframework.zip/MobilePaymentsSDK.xcframework'
 
 end

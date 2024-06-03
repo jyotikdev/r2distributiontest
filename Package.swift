@@ -1,10 +1,9 @@
-// swift-tools-version:5.5
+// swift-tools-version:5.3
 
 import PackageDescription
 
 let package = Package(
     name: "SquareMobilePaymentsSDK",
-    platforms: [.iOS(.v15)],
     products: [
         .library(name: "SquareMobilePaymentsSDK", targets: ["SquareMobilePaymentsSDK"]),
         .library(name: "MockReaderUI", targets: ["MockReaderUI"]),

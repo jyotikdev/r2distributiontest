@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '15.0'
 
+  s.preserve_paths = 'SquareMobilePaymentsSDK.xcframework'
   s.source ={ :http => "https://d3eygymyzkbhx3.cloudfront.net/mpsdk/2.0.0-beta2/SquareMobilePaymentsSDK_b854a2f0e98b.zip" }
   s.vendored_frameworks = 'SquareMobilePaymentsSDK.xcframework'
 

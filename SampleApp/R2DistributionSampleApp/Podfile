@@ -7,6 +7,6 @@ target 'R2DistributionSampleApp' do
   use_frameworks!
 
   # Pods for R2DistributionSampleApp
-  pod 'R2Distribution', '2.0.1'
+  pod 'R2Distribution', '2.2.0'
 
 end

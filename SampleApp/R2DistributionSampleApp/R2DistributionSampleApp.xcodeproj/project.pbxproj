@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2889870E1108F49FDD8B4619 /* Pods_R2DistributionSampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB15559E4CA366AB4EA79B9C /* Pods_R2DistributionSampleApp.framework */; };
 		D0D685562BF57B51007DE509 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D685552BF57B51007DE509 /* AppDelegate.swift */; };
 		D0D685582BF57B51007DE509 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D685572BF57B51007DE509 /* SceneDelegate.swift */; };
 		D0D6855A2BF57B51007DE509 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D685592BF57B51007DE509 /* ViewController.swift */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A532C8C5CEC4EAF7ACBF0AD /* Pods-R2DistributionSampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-R2DistributionSampleApp.release.xcconfig"; path = "Target Support Files/Pods-R2DistributionSampleApp/Pods-R2DistributionSampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		CB15559E4CA366AB4EA79B9C /* Pods_R2DistributionSampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_R2DistributionSampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0D685522BF57B51007DE509 /* R2DistributionSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = R2DistributionSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0D685552BF57B51007DE509 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0D685572BF57B51007DE509 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		D0D6855E2BF57B53007DE509 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0D685612BF57B53007DE509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0D685632BF57B53007DE509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D56385A0B33771E372152B89 /* Pods-R2DistributionSampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-R2DistributionSampleApp.debug.xcconfig"; path = "Target Support Files/Pods-R2DistributionSampleApp/Pods-R2DistributionSampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2889870E1108F49FDD8B4619 /* Pods_R2DistributionSampleApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F7D101F558DAF737678B287 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D56385A0B33771E372152B89 /* Pods-R2DistributionSampleApp.debug.xcconfig */,
+				8A532C8C5CEC4EAF7ACBF0AD /* Pods-R2DistributionSampleApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D0D685492BF57B51007DE509 = {
 			isa = PBXGroup;
 			children = (
 				D0D685542BF57B51007DE509 /* R2DistributionSampleApp */,
 				D0D685532BF57B51007DE509 /* Products */,
+				1F7D101F558DAF737678B287 /* Pods */,
+				F380C1DC89EFF41DC74FC193 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +83,14 @@
 			path = R2DistributionSampleApp;
 			sourceTree = "<group>";
 		};
+		F380C1DC89EFF41DC74FC193 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB15559E4CA366AB4EA79B9C /* Pods_R2DistributionSampleApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0D685662BF57B53007DE509 /* Build configuration list for PBXNativeTarget "R2DistributionSampleApp" */;
 			buildPhases = (
+				74FE817A01768E213C096EC8 /* [CP] Check Pods Manifest.lock */,
 				D0D6854E2BF57B51007DE509 /* Sources */,
 				D0D6854F2BF57B51007DE509 /* Frameworks */,
 				D0D685502BF57B51007DE509 /* Resources */,
+				FCF65242F035E3033FFEBD3C /* [CP] Embed Pods Frameworks */,
 				D0D685692BF57B5F007DE509 /* ShellScript */,
 			);
 			buildRules = (
@@ -135,6 +161,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		74FE817A01768E213C096EC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-R2DistributionSampleApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D0D685692BF57B5F007DE509 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -150,7 +198,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "FRAMEWORKS=\"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}\"\n\"${FRAMEWORKS}/ReaderSDK2.framework/setup\"\n";
+			shellScript = "FRAMEWORKS=\"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}\"\n\"${FRAMEWORKS}/SquareMobilePaymentsSDK.framework/setup\"\n";
+		};
+		FCF65242F035E3033FFEBD3C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-R2DistributionSampleApp/Pods-R2DistributionSampleApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-R2DistributionSampleApp/Pods-R2DistributionSampleApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-R2DistributionSampleApp/Pods-R2DistributionSampleApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -308,12 +373,14 @@
 		};
 		D0D685672BF57B53007DE509 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D56385A0B33771E372152B89 /* Pods-R2DistributionSampleApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J6PNP64J5X;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = R2DistributionSampleApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -336,12 +403,14 @@
 		};
 		D0D685682BF57B53007DE509 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A532C8C5CEC4EAF7ACBF0AD /* Pods-R2DistributionSampleApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J6PNP64J5X;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = R2DistributionSampleApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

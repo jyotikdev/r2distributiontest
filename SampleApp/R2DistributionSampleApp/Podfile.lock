@@ -1,0 +1,16 @@
+PODS:
+  - R2Distribution (2.2.0)
+
+DEPENDENCIES:
+  - R2Distribution (= 2.2.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - R2Distribution
+
+SPEC CHECKSUMS:
+  R2Distribution: f663eed90d59b6d26213869eb83e90bf83b13308
+
+PODFILE CHECKSUM: 900bad18b5ef19f7d1ed7162eb3a6c150af14d57
+
+COCOAPODS: 1.16.2

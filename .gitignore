@@ -1,1 +1,3 @@
 SampleApp/R2DistributionSampleApp/Pods
+# Ignore Xcode user state files
+*.xcuserstate

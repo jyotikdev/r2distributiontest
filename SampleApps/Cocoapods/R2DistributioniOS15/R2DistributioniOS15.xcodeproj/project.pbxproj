@@ -13,6 +13,8 @@
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		D09B87E62DA0AA5500261382 /* R2DistributioniOS15 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = R2DistributioniOS15;
 			sourceTree = "<group>";
 		};
@@ -34,6 +36,7 @@
 			children = (
 				D09B87E62DA0AA5500261382 /* R2DistributioniOS15 */,
 				D09B87E52DA0AA5500261382 /* Products */,
+				D59AEA90184DE7E516898508 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -43,6 +46,13 @@
 				D09B87E42DA0AA5500261382 /* R2DistributioniOS15.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		D59AEA90184DE7E516898508 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -55,6 +65,7 @@
 				D09B87E02DA0AA5500261382 /* Sources */,
 				D09B87E12DA0AA5500261382 /* Frameworks */,
 				D09B87E22DA0AA5500261382 /* Resources */,
+				D0D92B752DA0AFD4000D7AF5 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -64,8 +75,6 @@
 				D09B87E62DA0AA5500261382 /* R2DistributioniOS15 */,
 			);
 			name = R2DistributioniOS15;
-			packageProductDependencies = (
-			);
 			productName = R2DistributioniOS15;
 			productReference = D09B87E42DA0AA5500261382 /* R2DistributioniOS15.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +122,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D0D92B752DA0AFD4000D7AF5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "SETUP_SCRIPT=${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}\"/SquareMobilePaymentsSDK.framework/setup\"\nif [ -f \"$SETUP_SCRIPT\" ]; then\n  \"$SETUP_SCRIPT\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D09B87E02DA0AA5500261382 /* Sources */ = {
@@ -248,9 +277,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"R2DistributioniOS15/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = J6PNP64J5X;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = R2DistributioniOS15;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -288,9 +318,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"R2DistributioniOS15/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = J6PNP64J5X;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = R2DistributioniOS15;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
